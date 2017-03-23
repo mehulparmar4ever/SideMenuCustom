@@ -13,9 +13,6 @@
 		2297AF881E84025B009622F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2297AF861E84025B009622F5 /* Main.storyboard */; };
 		2297AF8A1E84025B009622F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2297AF891E84025B009622F5 /* Assets.xcassets */; };
 		2297AF8D1E84025B009622F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2297AF8B1E84025B009622F5 /* LaunchScreen.storyboard */; };
-		2297AF9C1E840548009622F5 /* CustomMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2297AF971E840548009622F5 /* CustomMenuCell.m */; };
-		2297AF9D1E840548009622F5 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2297AF991E840548009622F5 /* ListViewController.m */; };
-		2297AF9E1E840548009622F5 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2297AF9B1E840548009622F5 /* MenuTableViewController.m */; };
 		2297AFA01E84079E009622F5 /* SIdeMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297AF9F1E84079E009622F5 /* SIdeMenuController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,12 +26,6 @@
 		2297AF8C1E84025B009622F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2297AF8E1E84025B009622F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2297AF951E840547009622F5 /* demoSidemenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demoSidemenu-Bridging-Header.h"; sourceTree = "<group>"; };
-		2297AF961E840548009622F5 /* CustomMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMenuCell.h; sourceTree = "<group>"; };
-		2297AF971E840548009622F5 /* CustomMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMenuCell.m; sourceTree = "<group>"; };
-		2297AF981E840548009622F5 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
-		2297AF991E840548009622F5 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
-		2297AF9A1E840548009622F5 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
-		2297AF9B1E840548009622F5 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 		2297AF9F1E84079E009622F5 /* SIdeMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SIdeMenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,7 +59,6 @@
 		2297AF811E84025B009622F5 /* demoSidemenu */ = {
 			isa = PBXGroup;
 			children = (
-				2297AF941E840539009622F5 /* Controller */,
 				2297AF821E84025B009622F5 /* AppDelegate.swift */,
 				2297AF841E84025B009622F5 /* ViewController.swift */,
 				2297AF9F1E84079E009622F5 /* SIdeMenuController.swift */,
@@ -80,19 +70,6 @@
 				2297AF8E1E84025B009622F5 /* Info.plist */,
 			);
 			path = demoSidemenu;
-			sourceTree = "<group>";
-		};
-		2297AF941E840539009622F5 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				2297AF961E840548009622F5 /* CustomMenuCell.h */,
-				2297AF971E840548009622F5 /* CustomMenuCell.m */,
-				2297AF981E840548009622F5 /* ListViewController.h */,
-				2297AF991E840548009622F5 /* ListViewController.m */,
-				2297AF9A1E840548009622F5 /* MenuTableViewController.h */,
-				2297AF9B1E840548009622F5 /* MenuTableViewController.m */,
-			);
-			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,11 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2297AF9C1E840548009622F5 /* CustomMenuCell.m in Sources */,
 				2297AF851E84025B009622F5 /* ViewController.swift in Sources */,
-				2297AF9D1E840548009622F5 /* ListViewController.m in Sources */,
 				2297AF831E84025B009622F5 /* AppDelegate.swift in Sources */,
-				2297AF9E1E840548009622F5 /* MenuTableViewController.m in Sources */,
 				2297AFA01E84079E009622F5 /* SIdeMenuController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
